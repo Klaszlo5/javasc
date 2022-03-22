@@ -1,0 +1,63 @@
+main{
+}
+h1{
+
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.tarolok {
+    background: white;
+    border: 2px solid #555;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: center;
+}
+#tarolo{
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+}
+#lenyom {
+    width: 95px;
+    height: 40px;
+    border: 1px solid dodgerblue;
+    margin: auto;
+    border-radius: 4px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#jatekter{
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 10px;
+}
+#jatektar div{
+    border: 2px solid #555;
+}
+.form{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-gap: 5px;
+}
+.form-label{
+    text-align: right;
+}
+footer{
+    text-align: center;
+}
+section div{
+    width: 100%;
+
+}
+.formazas{
+    border: 2px solid rgb(70, 214, 70);
+    padding: 10px;
+    background-color: pink;
+}
